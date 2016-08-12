@@ -5,15 +5,15 @@
 `npm install`
 
 ##To start with the database.
-`CREATE DATABASE todo;
-USE todo;
-CREATE TABLE `todo_list` (
+`CREATE DATABASE todo;`
+`USE todo;`
+`CREATE TABLE `todo_list` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-`
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;`
+
 ------------------------------------------------------------------------------------
 
 #Start application
