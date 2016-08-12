@@ -2,10 +2,10 @@
 
 #One time installation
 ##To install npm packages
-npm install
+`npm install`
 
 ##To start with the database.
-CREATE DATABASE todo;
+`CREATE DATABASE todo;
 USE todo;
 CREATE TABLE `todo_list` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -13,14 +13,14 @@ CREATE TABLE `todo_list` (
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
+`
 ------------------------------------------------------------------------------------
 
 #Start application
 ##To start the application in the terminal:
-node app.js
+`node app.js`
 ##To start the application with logs file
-node app.js > stdout.txt 2> stderr.txt &
+`node app.js > stdout.txt 2> stderr.txt &`
 
 ##To test the API:
 GET: http://localhost:8000/todo
